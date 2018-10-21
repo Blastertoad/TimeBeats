@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ReTimeBeats.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\GitHub\ReTimeBeats\Intermediate\Build\Win64\ReTimeBeatsEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"F:\GitHub\ReTimeBeats\Intermediate\Build\Win64\UE4Editor\Development\ReTimeBeats\ReTimeBeats.cpp.obj"
+"F:\GitHub\ReTimeBeats\Intermediate\Build\Win64\UE4Editor\Development\ReTimeBeats\ReTimeBeatsGameModeBase.cpp.obj"
+"F:\GitHub\ReTimeBeats\Intermediate\Build\Win64\UE4Editor\Development\ReTimeBeats\ReTimeBeats.init.gen.cpp.obj"
+"F:\GitHub\ReTimeBeats\Intermediate\Build\Win64\UE4Editor\Development\ReTimeBeats\ReTimeBeatsGameModeBase.gen.cpp.obj"
+"F:\GitHub\ReTimeBeats\Intermediate\Build\Win64\UE4Editor\Development\ReTimeBeats\PCLaunch.rc.res"
+/OUT:"F:\GitHub\ReTimeBeats\Intermediate\Build\Win64\UE4Editor\Development\ReTimeBeats\UE4Editor-ReTimeBeats.lib"

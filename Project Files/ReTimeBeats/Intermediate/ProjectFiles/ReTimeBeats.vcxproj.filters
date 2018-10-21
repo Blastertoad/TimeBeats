@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\ReTimeBeats.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{3F8CF0CC-2E91-4B83-A156-C9E89841B57B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ReTimeBeats.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\ReTimeBeatsEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{72F35CD4-5D75-486D-AD49-28ADB2B9812D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\ReTimeBeats">
+			<UniqueIdentifier>{F4935944-A54A-4E5F-833B-9DBE7C2A3B5E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ReTimeBeats\ReTimeBeats.Build.cs">
+			<Filter>Source\ReTimeBeats</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\ReTimeBeats\ReTimeBeats.cpp">
+			<Filter>Source\ReTimeBeats</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ReTimeBeats\ReTimeBeats.h">
+			<Filter>Source\ReTimeBeats</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ReTimeBeats\ReTimeBeatsGameModeBase.cpp">
+			<Filter>Source\ReTimeBeats</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ReTimeBeats\ReTimeBeatsGameModeBase.h">
+			<Filter>Source\ReTimeBeats</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
